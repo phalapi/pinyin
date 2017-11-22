@@ -1,0 +1,27 @@
+{
+    "name": "phalapi/pinyin",
+    "description": "PhalApi 2.x 拼音扩展，基于overtrue/pinyin实现。",
+    "type": "library",
+    "keywords": [
+        "phalapi", "phalapi-pinyin", "pinyin", "拼音"
+    ],
+    "license": "GPL-3.0+",
+    "minimum-stability": "dev",
+    "homepage": "https://www.phalapi.net/",
+    "authors": [
+        {
+            "name": "dogstar huang",
+            "email": "chanzonghuang@gmail.com",
+            "homepage": "http://my.oschina.net/dogstar",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "overtrue/pinyin": "~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhalApi\\Pinyin\\": "src"
+        }
+    } 
+}
